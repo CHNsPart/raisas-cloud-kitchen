@@ -1,0 +1,480 @@
+{
+  "restaurant": {
+    "name": "Raisa's Chinese Restaurant",
+    "description": "Authentic Chinese flavors, crafted with love",
+    "type": "Cloud Kitchen",
+    "deliveryTime": "25-30 min",
+    "status": "open"
+  },
+  "categories": [
+    {
+      "id": "soups",
+      "name": "Soups",
+      "emoji": "🍜",
+      "description": "Warm and comforting",
+      "items": [
+        {
+          "id": "soup-001",
+          "name": "Hot Soup",
+          "description": "Traditional Chinese soup with fresh ingredients",
+          "image": "/images/soups/hot-soup.png",
+          "category": "soups",
+          "availability": "fresh",
+          "rating": 4.5,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "small",
+              "price": 6.99,
+              "pieces": null
+            },
+            {
+              "size": "large",
+              "price": 9.99,
+              "pieces": null
+            }
+          ],
+          "tags": ["hot", "traditional", "comforting"]
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice Dishes",
+      "emoji": "🍚",
+      "description": "Perfectly seasoned fried rice",
+      "items": [
+        {
+          "id": "rice-001",
+          "name": "Vegetable Fried Rice",
+          "description": "Fresh vegetables with aromatic jasmine rice",
+          "image": "/images/rice/vegetable-fried-rice.png",
+          "category": "rice",
+          "availability": "fresh",
+          "rating": 4.3,
+          "isVegetarian": true,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": 7.99,
+              "pieces": null
+            }
+          ],
+          "tags": ["vegetarian", "healthy", "aromatic"]
+        },
+        {
+          "id": "rice-002",
+          "name": "Chicken Fried Rice",
+          "description": "Tender chicken pieces with seasoned rice",
+          "image": "/images/rice/chicken-fried-rice.png",
+          "category": "rice",
+          "availability": "fresh",
+          "rating": 4.7,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": 8.99,
+              "pieces": null
+            }
+          ],
+          "tags": ["protein", "tender", "popular"]
+        },
+        {
+          "id": "rice-003",
+          "name": "Special Fried Rice",
+          "description": "Our signature mix with premium ingredients",
+          "image": "/images/rice/special-fried-rice.png",
+          "category": "rice",
+          "availability": "fresh",
+          "rating": 4.8,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": 9.99,
+              "pieces": null
+            }
+          ],
+          "tags": ["signature", "premium", "chef-special"]
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken Specialties",
+      "emoji": "🍗",
+      "description": "Fresh cooked chicken dishes",
+      "items": [
+        {
+          "id": "chicken-001",
+          "name": "Manchurian Chicken",
+          "description": "Indo-Chinese fusion with rich sauce",
+          "image": "/images/chicken/manchurian-chicken.png",
+          "category": "chicken",
+          "availability": "fresh",
+          "rating": 4.6,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["fusion", "saucy", "popular"]
+        },
+        {
+          "id": "chicken-002",
+          "name": "Chicken Chilli with Onion",
+          "description": "Spicy chicken with caramelized onions",
+          "image": "/images/chicken/chicken-chilli-onion.png",
+          "category": "chicken",
+          "availability": "fresh",
+          "rating": 4.4,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["spicy", "onions", "flavorful"]
+        },
+        {
+          "id": "chicken-003",
+          "name": "Crispy Chicken",
+          "description": "Perfectly crispy chicken pieces",
+          "image": "/images/chicken/crispy-chicken.png",
+          "category": "chicken",
+          "availability": "fresh",
+          "rating": 4.5,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["crispy", "crunchy", "golden"]
+        },
+        {
+          "id": "chicken-004",
+          "name": "Tandoori Chicken",
+          "description": "Clay oven roasted with aromatic spices",
+          "image": "/images/chicken/tandoori-chicken.png",
+          "category": "chicken",
+          "availability": "fresh",
+          "rating": 4.9,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["tandoori", "aromatic", "traditional"]
+        },
+        {
+          "id": "chicken-005",
+          "name": "Chicken Spring Rolls",
+          "description": "Crispy chicken spring rolls",
+          "image": "/images/chicken/chicken-spring-rolls.png",
+          "category": "chicken",
+          "availability": "both",
+          "rating": 4.2,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "fried",
+              "price": 9.00,
+              "pieces": 10
+            },
+            {
+              "size": "frozen",
+              "price": 8.00,
+              "pieces": 10
+            }
+          ],
+          "tags": ["crispy", "rolls", "appetizer"]
+        }
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "Beef Specialties",
+      "emoji": "🥩",
+      "description": "Premium beef dishes",
+      "items": [
+        {
+          "id": "beef-001",
+          "name": "Beef Chilli with Onion",
+          "description": "Tender beef with spicy chili and onions",
+          "image": "/images/beef/beef-chilli-onion.png",
+          "category": "beef",
+          "availability": "fresh",
+          "rating": 4.7,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["tender", "spicy", "premium"]
+        }
+      ]
+    },
+    {
+      "id": "dumplings",
+      "name": "Dumplings & Appetizers",
+      "emoji": "🥟",
+      "description": "Fresh and frozen options available",
+      "items": [
+        {
+          "id": "dumpling-001",
+          "name": "Wonton",
+          "description": "Traditional Chinese dumplings",
+          "image": "/images/dumplings/wonton.png",
+          "category": "dumplings",
+          "availability": "fresh",
+          "rating": 4.2,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": 7.99,
+              "pieces": 20
+            }
+          ],
+          "tags": ["traditional", "dumplings", "appetizer"]
+        },
+        {
+          "id": "dumpling-002",
+          "name": "Singara",
+          "description": "Traditional Bengali samosa",
+          "image": "/images/dumplings/singara.png",
+          "category": "dumplings",
+          "availability": "both",
+          "rating": 4.0,
+          "isVegetarian": true,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "fresh-12pc",
+              "price": 10.00,
+              "pieces": 12
+            },
+            {
+              "size": "fresh-25pc",
+              "price": 20.00,
+              "pieces": 25
+            },
+            {
+              "size": "frozen-15pc",
+              "price": 10.00,
+              "pieces": 15
+            },
+            {
+              "size": "frozen-25pc",
+              "price": 15.00,
+              "pieces": 25
+            }
+          ],
+          "tags": ["bengali", "samosa", "traditional"]
+        },
+        {
+          "id": "dumpling-003",
+          "name": "Vegetable Spring Rolls",
+          "description": "Crispy vegetable spring rolls",
+          "image": "/images/dumplings/vegetable-spring-rolls.png",
+          "category": "dumplings",
+          "availability": "both",
+          "rating": 4.1,
+          "isVegetarian": true,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "fried",
+              "price": 7.00,
+              "pieces": 10
+            },
+            {
+              "size": "frozen",
+              "price": 6.00,
+              "pieces": 10
+            }
+          ],
+          "tags": ["vegetarian", "crispy", "healthy"]
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "emoji": "🥬",
+      "description": "Fresh vegetable dishes",
+      "items": [
+        {
+          "id": "veg-001",
+          "name": "Chinese Vegetables",
+          "description": "Fresh mixed vegetables in Chinese style",
+          "image": "/images/vegetables/chinese-vegetables.png",
+          "category": "vegetables",
+          "availability": "fresh",
+          "rating": 4.3,
+          "isVegetarian": true,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": 8.00,
+              "pieces": null
+            }
+          ],
+          "tags": ["healthy", "mixed", "colorful"]
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "emoji": "🍝",
+      "description": "Creamy pasta dishes",
+      "items": [
+        {
+          "id": "pasta-001",
+          "name": "White Sauce Pasta",
+          "description": "Creamy white sauce with pasta",
+          "image": "/images/pasta/white-sauce-pasta.png",
+          "category": "pasta",
+          "availability": "fresh",
+          "rating": 4.1,
+          "isVegetarian": true,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": 10.00,
+              "pieces": null
+            }
+          ],
+          "tags": ["creamy", "italian", "comfort"]
+        }
+      ]
+    },
+    {
+      "id": "combos",
+      "name": "Combo Meals",
+      "emoji": "🍽️",
+      "description": "Complete meals at great value",
+      "items": [
+        {
+          "id": "combo-001",
+          "name": "Classic Combo",
+          "description": "Rice + One piece fried chicken/tandoori chicken + Chinese vegetables",
+          "image": "/images/combos/classic-combo.png",
+          "category": "combos",
+          "availability": "fresh",
+          "rating": 4.8,
+          "isVegetarian": false,
+          "isSpicy": false,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["combo", "value", "complete-meal"],
+          "includes": ["rice", "fried-chicken", "chinese-vegetables"]
+        },
+        {
+          "id": "combo-002",
+          "name": "Manchurian Special",
+          "description": "Rice + Manchurian + Chinese vegetables",
+          "image": "/images/combos/manchurian-special.png",
+          "category": "combos",
+          "availability": "fresh",
+          "rating": 4.7,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["combo", "manchurian", "popular"],
+          "includes": ["rice", "manchurian", "chinese-vegetables"]
+        },
+        {
+          "id": "combo-003",
+          "name": "Spicy Delight",
+          "description": "Rice + Manchurian + Beef/Chicken chili",
+          "image": "/images/combos/spicy-delight.png",
+          "category": "combos",
+          "availability": "fresh",
+          "rating": 4.5,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["combo", "spicy", "hot"],
+          "includes": ["rice", "manchurian", "chili"]
+        },
+        {
+          "id": "combo-004",
+          "name": "Fried & Chili",
+          "description": "Rice + Fried chicken + Beef/Chicken chili",
+          "image": "/images/combos/fried-chili.png",
+          "category": "combos",
+          "availability": "fresh",
+          "rating": 4.6,
+          "isVegetarian": false,
+          "isSpicy": true,
+          "variants": [
+            {
+              "size": "regular",
+              "price": "market",
+              "pieces": null
+            }
+          ],
+          "tags": ["combo", "crispy", "spicy"],
+          "includes": ["rice", "fried-chicken", "chili"]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalCategories": 8,
+    "totalItems": 20,
+    "lastUpdated": "2025-01-09",
+    "version": "1.0.0",
+    "currency": "USD",
+    "imageBasePath": "/images/",
+    "availabilityTypes": ["fresh", "frozen", "both"],
+    "priceTypes": ["fixed", "market"]
+  }
+}
